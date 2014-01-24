@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CD68D5A18915BA100C74C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD68D5918915BA100C74C59 /* Foundation.framework */; };
+		8CD68D5C18915BA100C74C59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD68D5B18915BA100C74C59 /* CoreGraphics.framework */; };
+		8CD68D5E18915BA100C74C59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD68D5D18915BA100C74C59 /* UIKit.framework */; };
+		8CD68D6418915BA100C74C59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CD68D6218915BA100C74C59 /* InfoPlist.strings */; };
+		8CD68D6618915BA100C74C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD68D6518915BA100C74C59 /* main.m */; };
+		8CD68D6A18915BA100C74C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD68D6918915BA100C74C59 /* AppDelegate.m */; };
+		8CD68D6D18915BA200C74C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD68D6B18915BA200C74C59 /* Main.storyboard */; };
+		8CD68D7018915BA200C74C59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD68D6F18915BA200C74C59 /* ViewController.m */; };
+		8CD68D7218915BA200C74C59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD68D7118915BA200C74C59 /* Images.xcassets */; };
+		8CD68D7918915BA200C74C59 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD68D7818915BA200C74C59 /* XCTest.framework */; };
+		8CD68D7A18915BA200C74C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD68D5918915BA100C74C59 /* Foundation.framework */; };
+		8CD68D7B18915BA200C74C59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD68D5D18915BA100C74C59 /* UIKit.framework */; };
+		8CD68D8318915BA300C74C59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CD68D8118915BA300C74C59 /* InfoPlist.strings */; };
+		8CD68D8518915BA300C74C59 /* AniRingMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD68D8418915BA300C74C59 /* AniRingMapTests.m */; };
+		8CD68D8F18915CBF00C74C59 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD68D8E18915CBF00C74C59 /* MapKit.framework */; };
+		8CD68D92189161E500C74C59 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD68D91189161E500C74C59 /* SettingController.m */; };
+		8CD68D99189171E800C74C59 /* LeveyPopListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD68D96189171E800C74C59 /* LeveyPopListView.m */; };
+		8CD68D9A189171E800C74C59 /* LeveyPopListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD68D98189171E800C74C59 /* LeveyPopListViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD68D7C18915BA200C74C59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD68D4E18915BA100C74C59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD68D5518915BA100C74C59;
+			remoteInfo = AniRingMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CD68D5618915BA100C74C59 /* AniRingMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniRingMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD68D5918915BA100C74C59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CD68D5B18915BA100C74C59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CD68D5D18915BA100C74C59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CD68D6118915BA100C74C59 /* AniRingMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AniRingMap-Info.plist"; sourceTree = "<group>"; };
+		8CD68D6318915BA100C74C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CD68D6518915BA100C74C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CD68D6718915BA100C74C59 /* AniRingMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AniRingMap-Prefix.pch"; sourceTree = "<group>"; };
+		8CD68D6818915BA100C74C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CD68D6918915BA100C74C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CD68D6C18915BA200C74C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CD68D6E18915BA200C74C59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CD68D6F18915BA200C74C59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CD68D7118915BA200C74C59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CD68D7718915BA200C74C59 /* AniRingMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniRingMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD68D7818915BA200C74C59 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8CD68D8018915BA300C74C59 /* AniRingMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AniRingMapTests-Info.plist"; sourceTree = "<group>"; };
+		8CD68D8218915BA300C74C59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CD68D8418915BA300C74C59 /* AniRingMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AniRingMapTests.m; sourceTree = "<group>"; };
+		8CD68D8E18915CBF00C74C59 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8CD68D90189161E500C74C59 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
+		8CD68D91189161E500C74C59 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
+		8CD68D931891645600C74C59 /* GlobalDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalDef.h; sourceTree = "<group>"; };
+		8CD68D95189171E800C74C59 /* LeveyPopListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyPopListView.h; sourceTree = "<group>"; };
+		8CD68D96189171E800C74C59 /* LeveyPopListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyPopListView.m; sourceTree = "<group>"; };
+		8CD68D97189171E800C74C59 /* LeveyPopListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyPopListViewCell.h; sourceTree = "<group>"; };
+		8CD68D98189171E800C74C59 /* LeveyPopListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyPopListViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD68D5318915BA100C74C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD68D8F18915CBF00C74C59 /* MapKit.framework in Frameworks */,
+				8CD68D5C18915BA100C74C59 /* CoreGraphics.framework in Frameworks */,
+				8CD68D5E18915BA100C74C59 /* UIKit.framework in Frameworks */,
+				8CD68D5A18915BA100C74C59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD68D7418915BA200C74C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD68D7918915BA200C74C59 /* XCTest.framework in Frameworks */,
+				8CD68D7B18915BA200C74C59 /* UIKit.framework in Frameworks */,
+				8CD68D7A18915BA200C74C59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CD68D4D18915BA100C74C59 = {
+			isa = PBXGroup;
+			children = (
+				8CD68D94189171E800C74C59 /* LeveyPopListView */,
+				8CD68D5F18915BA100C74C59 /* AniRingMap */,
+				8CD68D7E18915BA200C74C59 /* AniRingMapTests */,
+				8CD68D5818915BA100C74C59 /* Frameworks */,
+				8CD68D5718915BA100C74C59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD68D5718915BA100C74C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD68D5618915BA100C74C59 /* AniRingMap.app */,
+				8CD68D7718915BA200C74C59 /* AniRingMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD68D5818915BA100C74C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CD68D8E18915CBF00C74C59 /* MapKit.framework */,
+				8CD68D5918915BA100C74C59 /* Foundation.framework */,
+				8CD68D5B18915BA100C74C59 /* CoreGraphics.framework */,
+				8CD68D5D18915BA100C74C59 /* UIKit.framework */,
+				8CD68D7818915BA200C74C59 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CD68D5F18915BA100C74C59 /* AniRingMap */ = {
+			isa = PBXGroup;
+			children = (
+				8CD68D931891645600C74C59 /* GlobalDef.h */,
+				8CD68D6818915BA100C74C59 /* AppDelegate.h */,
+				8CD68D6918915BA100C74C59 /* AppDelegate.m */,
+				8CD68D6B18915BA200C74C59 /* Main.storyboard */,
+				8CD68D6E18915BA200C74C59 /* ViewController.h */,
+				8CD68D6F18915BA200C74C59 /* ViewController.m */,
+				8CD68D90189161E500C74C59 /* SettingController.h */,
+				8CD68D91189161E500C74C59 /* SettingController.m */,
+				8CD68D7118915BA200C74C59 /* Images.xcassets */,
+				8CD68D6018915BA100C74C59 /* Supporting Files */,
+			);
+			path = AniRingMap;
+			sourceTree = "<group>";
+		};
+		8CD68D6018915BA100C74C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CD68D6118915BA100C74C59 /* AniRingMap-Info.plist */,
+				8CD68D6218915BA100C74C59 /* InfoPlist.strings */,
+				8CD68D6518915BA100C74C59 /* main.m */,
+				8CD68D6718915BA100C74C59 /* AniRingMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CD68D7E18915BA200C74C59 /* AniRingMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CD68D8418915BA300C74C59 /* AniRingMapTests.m */,
+				8CD68D7F18915BA300C74C59 /* Supporting Files */,
+			);
+			path = AniRingMapTests;
+			sourceTree = "<group>";
+		};
+		8CD68D7F18915BA300C74C59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CD68D8018915BA300C74C59 /* AniRingMapTests-Info.plist */,
+				8CD68D8118915BA300C74C59 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CD68D94189171E800C74C59 /* LeveyPopListView */ = {
+			isa = PBXGroup;
+			children = (
+				8CD68D95189171E800C74C59 /* LeveyPopListView.h */,
+				8CD68D96189171E800C74C59 /* LeveyPopListView.m */,
+				8CD68D97189171E800C74C59 /* LeveyPopListViewCell.h */,
+				8CD68D98189171E800C74C59 /* LeveyPopListViewCell.m */,
+			);
+			path = LeveyPopListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CD68D5518915BA100C74C59 /* AniRingMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD68D8818915BA300C74C59 /* Build configuration list for PBXNativeTarget "AniRingMap" */;
+			buildPhases = (
+				8CD68D5218915BA100C74C59 /* Sources */,
+				8CD68D5318915BA100C74C59 /* Frameworks */,
+				8CD68D5418915BA100C74C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AniRingMap;
+			productName = AniRingMap;
+			productReference = 8CD68D5618915BA100C74C59 /* AniRingMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CD68D7618915BA200C74C59 /* AniRingMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD68D8B18915BA300C74C59 /* Build configuration list for PBXNativeTarget "AniRingMapTests" */;
+			buildPhases = (
+				8CD68D7318915BA200C74C59 /* Sources */,
+				8CD68D7418915BA200C74C59 /* Frameworks */,
+				8CD68D7518915BA200C74C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD68D7D18915BA200C74C59 /* PBXTargetDependency */,
+			);
+			name = AniRingMapTests;
+			productName = AniRingMapTests;
+			productReference = 8CD68D7718915BA200C74C59 /* AniRingMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD68D4E18915BA100C74C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					8CD68D7618915BA200C74C59 = {
+						TestTargetID = 8CD68D5518915BA100C74C59;
+					};
+				};
+			};
+			buildConfigurationList = 8CD68D5118915BA100C74C59 /* Build configuration list for PBXProject "AniRingMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CD68D4D18915BA100C74C59;
+			productRefGroup = 8CD68D5718915BA100C74C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD68D5518915BA100C74C59 /* AniRingMap */,
+				8CD68D7618915BA200C74C59 /* AniRingMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD68D5418915BA100C74C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD68D7218915BA200C74C59 /* Images.xcassets in Resources */,
+				8CD68D6418915BA100C74C59 /* InfoPlist.strings in Resources */,
+				8CD68D6D18915BA200C74C59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD68D7518915BA200C74C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD68D8318915BA300C74C59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD68D5218915BA100C74C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD68D9A189171E800C74C59 /* LeveyPopListViewCell.m in Sources */,
+				8CD68D99189171E800C74C59 /* LeveyPopListView.m in Sources */,
+				8CD68D92189161E500C74C59 /* SettingController.m in Sources */,
+				8CD68D7018915BA200C74C59 /* ViewController.m in Sources */,
+				8CD68D6A18915BA100C74C59 /* AppDelegate.m in Sources */,
+				8CD68D6618915BA100C74C59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD68D7318915BA200C74C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD68D8518915BA300C74C59 /* AniRingMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CD68D7D18915BA200C74C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD68D5518915BA100C74C59 /* AniRingMap */;
+			targetProxy = 8CD68D7C18915BA200C74C59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CD68D6218915BA100C74C59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD68D6318915BA100C74C59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CD68D6B18915BA200C74C59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD68D6C18915BA200C74C59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CD68D8118915BA300C74C59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD68D8218915BA300C74C59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CD68D8618915BA300C74C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CD68D8718915BA300C74C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CD68D8918915BA300C74C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AniRingMap/AniRingMap-Prefix.pch";
+				INFOPLIST_FILE = "AniRingMap/AniRingMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CD68D8A18915BA300C74C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AniRingMap/AniRingMap-Prefix.pch";
+				INFOPLIST_FILE = "AniRingMap/AniRingMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8CD68D8C18915BA300C74C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AniRingMap.app/AniRingMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AniRingMap/AniRingMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AniRingMapTests/AniRingMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8CD68D8D18915BA300C74C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AniRingMap.app/AniRingMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AniRingMap/AniRingMap-Prefix.pch";
+				INFOPLIST_FILE = "AniRingMapTests/AniRingMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD68D5118915BA100C74C59 /* Build configuration list for PBXProject "AniRingMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD68D8618915BA300C74C59 /* Debug */,
+				8CD68D8718915BA300C74C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD68D8818915BA300C74C59 /* Build configuration list for PBXNativeTarget "AniRingMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD68D8918915BA300C74C59 /* Debug */,
+				8CD68D8A18915BA300C74C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CD68D8B18915BA300C74C59 /* Build configuration list for PBXNativeTarget "AniRingMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD68D8C18915BA300C74C59 /* Debug */,
+				8CD68D8D18915BA300C74C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD68D4E18915BA100C74C59 /* Project object */;
+}
